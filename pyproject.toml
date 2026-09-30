@@ -1,0 +1,13 @@
+[project]
+name = "fraud-detection-agent"
+version = "0.1.0"
+description = "Fraud detection pipeline with CrewAI integration"
+authors = [{ name = "Rahul" }]
+dependencies = [
+    "crewai",
+    "pandas",
+    "scikit-learn"
+]
+
+[tool.poetry]
+packages = [{ include = "src" }]
