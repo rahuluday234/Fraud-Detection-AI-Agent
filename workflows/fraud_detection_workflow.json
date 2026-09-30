@@ -1,0 +1,7 @@
+{
+    "workflow": [
+        "fraud_detector",
+        "audit_logger",
+        "report_agent"
+    ]
+}
